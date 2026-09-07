@@ -8,10 +8,9 @@ MySQL | Data Analyst Portfolio Project
 /* =========================================================
 1. DATA EXPLORATION
 ========================================================= */
-
 -- 1. View all loan records
 SELECT *
-FROM Loans;
+FROM Loans; 
 
 -- 2. View all customer records
 SELECT *
