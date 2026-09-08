@@ -633,29 +633,3 @@ ORDER BY SUM(Loan_Amount) DESC
 FROM Loans
 GROUP BY Loan_Type
 ORDER BY Loan_Type_Rank;
-/* =========================================================
-   10. PROJECT CONCLUSION
-   ========================================================= */
-
--- Project Conclusion:
---
--- In this project, I analyzed loan data using MySQL to understand
--- loan applications, approval patterns, customer credit profiles,
--- loan amounts, loan types, and interest rates.
---
--- The analysis covered data exploration, data quality checks,
--- basic loan analysis, credit score analysis, loan type analysis,
--- customer analysis, CTEs, and window functions.
---
--- I used SQL techniques such as SELECT, WHERE, GROUP BY,
--- ORDER BY, aggregate functions, CASE statements, JOINs,
--- CTEs, ROW_NUMBER(), RANK(), DENSE_RANK(), PARTITION BY,
--- LAG(), LEAD(), and window functions.
---
--- The analysis helped identify patterns in loan approvals,
--- credit categories, loan types, customer loan exposure,
--- loan amounts, and interest rates.
---
--- Overall, this project helped me understand how SQL can be
--- used to clean, analyze, and transform loan data into
--- meaningful business insights for decision-making.
