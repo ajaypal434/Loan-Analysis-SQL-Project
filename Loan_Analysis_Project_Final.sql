@@ -633,3 +633,4 @@ ORDER BY SUM(Loan_Amount) DESC
 FROM Loans
 GROUP BY Loan_Type
 ORDER BY Loan_Type_Rank;
+
